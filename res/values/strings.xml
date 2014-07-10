@@ -1,8 +1,8 @@
 <resources>
 
     <string name="app_name">CST407</string>
-    <string name="hw2_tv_string">PORTRAIT</string>
-    <string name="hw2_tv_string_land">LANDSCAPE</string>
+    <string name="hw2_tv_string">I feel so tall</string>
+    <string name="hw2_tv_string_land">The world looks flat</string>
     <string name="b_pic">Take Picture</string>
     <string name="changeText">Change Text</string>
     <string name="tv2_genieComment"></string>

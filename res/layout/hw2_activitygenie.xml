@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="50dp"
+    android:paddingTop="16dp" >
+
+    <TextView
+        android:id="@+id/tv1_numGenies"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <ToggleButton
+        android:id="@+id/tb1_wish"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/tv1_numGenies"
+        android:text="Wish 1"
+        android:textOff="Unused"
+        android:textOn="Used"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tv1_wish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/tb1_wish"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@id/tb1_wish"
+        android:text="Wish 1:"
+        android:textSize="35sp" />
+
+    <ToggleButton
+        android:id="@+id/tb2_wish"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/tb1_wish"
+        android:text="Wish 2"
+        android:textOff="Unused"
+        android:textOn="Used"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tv2_wish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/tb2_wish"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@id/tb2_wish"
+        android:text="Wish 2:"
+        android:textSize="35sp" />
+
+    <ToggleButton
+        android:id="@+id/tb3_wish"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/tb2_wish"
+        android:text="Wish 3"
+        android:textOff="Unused"
+        android:textOn="Used"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tv3_wish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/tb3_wish"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@id/tb3_wish"
+        android:text="Wish 3:"
+        android:textSize="35sp" />
+
+    <TextView
+        android:id="@+id/tv2_genieComment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tb3_wish"
+        android:layout_gravity="center"
+        android:text="@string/tv2_genieComment"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/b1_reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="67dp"
+        android:text="Reset" />
+
+</RelativeLayout>
